@@ -1,0 +1,62 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+	<meta charset="utf-8">
+	<title>DWM</title>
+	
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,200&display=swap" rel="stylesheet">
+<!-- <link rel="stylesheet" href="{%static 'normalize.css'%}"> -->
+<link rel="stylesheet" href="{% static 'css/main.css'%}">
+</head>
+
+</head>
+<body>
+<div class="block">
+        <div class="intro">
+            <div class="container">
+            <div class="header">
+                <div class="logo">
+                    <h2 class="intro_logo">Dance with Madina</h2>
+                </div>
+                <div class="navigation">
+                    <a href="" class="nav_link">Main</a>
+                    <a href="" class="nav_link">Styles</a>
+                    <a href="" class="nav_link"> Join Our Classes</a>
+                </div>
+            </div>
+            <div class="intro_text">
+                <p class="text">You can express yourself, your emotions and feelings by dancing.Movement,rhythm and melody treat your emotional health.</p>
+            </div>
+        </div>
+    </div>
+
+        <div class="about_me">
+            <div class="container">
+                <h2 class="aboutme_title">About me</h2>
+                <p class="aboutme_text">Hey dancers! I'm Madina. And I'm your dance teacher. I've known about different dance styles for nearly 10 years now as I danced from the age of 5 in Classic,Modern and Sreet Styles.I'm beyond excited to be teaching you! I cant't wait to watch you grow and learn as we dance and have fun! </p>
+           </div>
+        </div>
+        {{title}}
+        <div class="container">
+            {%for dance in dances%}
+            <div class="dance_card">
+                <img src="{{dance.photo.url}}" class="dance_icon ">
+                <div class="desc">
+                    <h3 class="dance_title">{{dance.title}}</h3>
+                    <p class="dance_text">{{dance.content}}</p>
+                </div>  
+
+            </div>
+            {%endfor%}
+        </div>
+        
+
+
+
+
+</html>
+    
