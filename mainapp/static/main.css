@@ -1,0 +1,97 @@
+body{
+	font-family: 'Montserrat', sans-serif; 
+}
+.intro{
+	width:100%;
+	height:100vh;
+	background:url('./images/dancing.jpg');
+	background-size:cover;
+	background-position:center;
+	margin:0 auto;
+	padding-top:50px;
+}
+.container{
+	max-width:1110px;
+	width:100%;
+	margin:0 auto;
+}
+.header{
+	width:100%;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	width:1110px;
+	height:52px;
+}
+.logo{
+	color:#c0c0c0;
+	text-decoration:none;
+	padding-right:10px;
+	font-size:40px;
+	margin-top:20px;
+}
+.navigation{
+	color:#c0c0c0;
+	text-decoration:none;
+}
+.nav_link{
+	text-decoration:none;
+	color:#c0c0c0;
+	font-size:20px;
+	padding-left:40px;
+	margin-top:40px;
+}
+.intro_text{
+	font-size:26px;
+	padding-top:100px;
+	color:#c0c0c0;
+	padding-left:160px;
+
+}
+.about_me{
+	width:100%;
+	height:100vh;
+	background:url('./images/dance_bg.jpg');
+	background-position:center;
+	padding-top:50px;
+    background-repeat:no-repeat;
+    background-size:cover;
+
+	
+}
+.aboutme_title{
+	color:#c0c0c0;
+	font-size:50px;
+	text-align:center;
+}
+.aboutme_text{
+	color:#c0c0c0;
+	font-size:20px;
+	padding-top:50px;
+	text-align:center;
+}
+.dance_card{
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+	padding:50px 0px;
+	background-color:#fff;
+}
+.desc{
+	width:670px;
+}
+.dance_title{
+	color:#111;
+	font-size:50px;
+	padding-right:420px;
+}
+.dance_text{
+	padding-top:40px;
+	line-height:30px;
+	font-size:20px;
+	color:#111;
+}
+.dance_icon{
+	height:430px;
+}
+
