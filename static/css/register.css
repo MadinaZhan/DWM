@@ -1,0 +1,11 @@
+body{
+	font-family: 'Montserrat', sans-serif; 
+}
+.errorlist{
+    color:red;
+
+}
+.error-msg{
+    color:red;
+    font-weight:700;
+}
